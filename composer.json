@@ -1,0 +1,12 @@
+{
+    "name": "eewee/test_email",
+    "authors": [
+        {
+            "name": "Michael",
+            "email": "contact@eewee.fr"
+        }
+    ],
+    "require": {
+        "sendgrid/sendgrid": "~7"
+    }
+}
