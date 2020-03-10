@@ -11,9 +11,9 @@ require 'vendor/autoload.php'; // If you're using Composer (recommended)
 define("SENDGRID_API_KEY", "SG.SU33TvE0RduAdWXF2bdeFA.5EPn2y..........");
 
 $email = new \SendGrid\Mail\Mail();
-$email->setFrom("test_sendgrid_from@eewee.fr", "Test sendgrid from");
+$email->setFrom("test_sendgrid_from@tld.com", "Test sendgrid from");
 $email->setSubject("Sending with SendGrid is Fun");
-$email->addTo("test_sendgrid_to@eewee.fr", "Test sendgrid to");
+$email->addTo("test_sendgrid_to@tld.com", "Test sendgrid to");
 $email->addContent("text/plain", "Mon message ici en PHP.");
 $email->addContent(
 "text/html", "<strong>Mon message ici </strong>en PHP."
